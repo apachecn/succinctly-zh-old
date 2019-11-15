@@ -1,0 +1,1 @@
+![Android Programming Succinctly cover](img/cover.png)
