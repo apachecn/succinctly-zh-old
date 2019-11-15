@@ -1,0 +1,1 @@
+![ASP.NET Multitenant Applications Succinctly cover](img/multitenant_cover.png)
