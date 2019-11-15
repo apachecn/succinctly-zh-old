@@ -1,0 +1,1 @@
+![BizTalk Succinctly cover](img/cover.png)
