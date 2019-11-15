@@ -1,0 +1,1 @@
+![Angular.js Succinctly cover](img/cover.png)
