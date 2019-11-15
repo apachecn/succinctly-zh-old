@@ -1,0 +1,1 @@
+![ASP.NET MVC 4 Mobile Websites Succinctly cover](img/cover.png)
