@@ -1,0 +1,1 @@
+![GIS Succinctly cover](img/cover.png)
