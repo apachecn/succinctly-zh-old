@@ -1,3 +1,0 @@
-## CAD 样本
-
-本书中使用的所有图纸 [](https://www.dropbox.com/s/gnzqcqjy71orl7w/AutoCAD%20Succinctly.zip?dl=0) 可供下载。
