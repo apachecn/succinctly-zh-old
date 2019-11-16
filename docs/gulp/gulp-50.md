@@ -1,6 +1,6 @@
 ## 在 Visual Studio 中观察 Gulp 的变化
 
-我们在前一段中看到的内容可以用来回答我在 [Web 欧洲大会 2015](http://webnextconf.eu/) 期间提出的问题，同时介绍 Gulp：_ 如何在使用 Visual 时更改文件并运行任务工作室？_
+我们在前一段中看到的内容可以用来回答我在 [Web 欧洲大会 2015](http://webnextconf.eu/) 期间提出的问题，同时介绍 Gulp：如何在使用 Visual 时更改文件并运行任务工作室？
 
 通过以下一些简单的步骤可以看出答案。我们将使用 gulp-sass 将 Sass 文件转换为相应的 CSS 文件。为此，在 **wwwroot / css /下创建两个 Sass 文件。**
 

@@ -30,7 +30,7 @@ Git 将您的用户 ID 和电子邮件地址链接到您的提交，因此查看
 
 图 9：电子邮件配置文件配置
 
-如果选中此框，任何 Git 操作都将被发送到特殊的 GitHub 帐户（_ 用户名 _ @ users.noreply.github.com）。您还需要在 Configure Git 屏幕中设置此电子邮件地址。
+如果选中此框，任何 Git 操作都将被发送到特殊的 GitHub 帐户（用户名 @users.noreply.github.com）。您还需要在 Configure Git 屏幕中设置此电子邮件地址。
 
 ### 存储库
 
@@ -78,13 +78,13 @@ Git 将您的用户 ID 和电子邮件地址链接到您的提交，因此查看
 
 一旦创建了存储库，就应该创建一个 **readme.md** 文本文件。 （.md 扩展名代表 Markdown Document）。当您在 GitHub 上打开存储库时，将显示此文件，并且可以由使用 GitHub 的人员进行搜索。虽然它是一个简单的文本文件，但您可以使用一些格式化选项。 GitHub 使用 Markdown 语法来创建纯文本文件，这些文件将显示为 HTML。如果您想了解有关 Markdown 的更多信息，请关注[此链接](http://daringfireball.net/projects/markdown/)，或使用 GitHub 帮助系统查看文本中支持的代码。
 
-对于我们关于 SQL Date 函数的简单自述文件，我们将使用 ##&lt; _ 文 _ &gt; ## 创建 H2 级标题， ### 用于 H3 级标题。
+对于我们关于 SQL Date 函数的简单自述文件，我们将使用`## <text> ##`创建 H2 级标题，`###`用于 H3 级标题。
 
-## SQL 日期函数##
+## SQL 日期函数
 
 为 SQL-Server 编写了几个日期函数（虽然可以很容易地移植到其他平台）。
 
-### Holiday_list（）###
+### Holiday_list（）
 
 一个好的 readme.md 文件应该吸引用户探索你的存储库。您还可以使用以下语法添加指向您自己网站的链接：
 

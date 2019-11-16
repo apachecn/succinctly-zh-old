@@ -37,13 +37,13 @@
 
 ![](img/00049.jpeg)
 
-_ 图 45：编辑 package.json 时的 IntelliSense_
+图 45：编辑 package.json 时的 IntelliSense
 
 很可能你已经获得了自动加载 npm 包的 Visual Studio 更新。如果你没有，那么你可以采取下一个简单的步骤，如图 46 所示：
 
 ![](img/00050.jpeg)
 
-_ 图 46：在 Visual Studio 中恢复包 _
+图 46：在 Visual Studio 中恢复包
 
 相应地将 gulpfile.js 文件更改为：
 

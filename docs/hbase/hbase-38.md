@@ -1,6 +1,6 @@
 ## 从 Python 编写数据
 
-HappyBase 表对象上的 put（）方法与 HBase Shell 中的 put 命令非常相似，它采用行键，列名和值。但是使用 HappyBase，您可以使用单个语句更新和插入多个单元格值，并传递 _ 键的字典：值 _ 对，如代码清单 45 所示：
+HappyBase 表对象上的 put（）方法与 HBase Shell 中的 put 命令非常相似，它采用行键，列名和值。但是使用 HappyBase，您可以使用单个语句更新和插入多个单元格值，并传递键值对的字典，如代码清单 45 所示：
 
 代码 45：使用 HappyBase 更新数据
 
