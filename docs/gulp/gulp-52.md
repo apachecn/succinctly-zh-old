@@ -8,4 +8,4 @@
 
 因为这是经常请求的，所以有不同的 Gulp 插件可以尝试解决这个常见问题。
 
-借助插件 gulp-inject ，我们可以完成任务。在我们使用早期（或新版本）的 ASP.NET MVC 应用程序中，我们可以通过将以下内容放在＆lt; head＆gt;中来调整 **_Layout.cshtml** 文件。 Razor 页面的部分。
+借助插件 gulp-inject ，我们可以完成任务。在我们使用早期（或新版本）的 ASP.NET MVC 应用程序中，我们可以通过将以下内容放在&lt; head&gt;中来调整 **_Layout.cshtml** 文件。 Razor 页面的部分。

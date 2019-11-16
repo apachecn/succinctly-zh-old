@@ -90,7 +90,7 @@ gulp.task('watch', function () {
 
 这不是什么新东西，因为我们已经在第 3 章中讨论了类似的方法。新的部分是 Visual Studio 的反应方式。在 gulpfile.js 文件的顶部，您可以看到以下行：
 
-///＆lt; binding Clean ='clean'ProjectOpened ='watch'/＆gt;
+///&lt; binding Clean ='clean'ProjectOpened ='watch'/&gt;
 
 第一部分是熟悉的，正如我们在前一个例子中看到的那样。使用前面讨论的工具， watch 任务已经与 Task Runner Explorer 中的 Project Open 绑定相结合，如图 43 所示。
 

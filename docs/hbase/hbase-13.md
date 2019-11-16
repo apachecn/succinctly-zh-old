@@ -43,7 +43,7 @@ hbase(main):008:0> create 'with-custom-config', {NAME =>'cf1', VERSIONS=>3}
 
 表 with-default-config 有一个列族， cf1 ，未指定配置，因此它将使用 HBase 默认值（包括具有单个单元版本）。表 with-custom-config 也有一个名为 cf1 的列族，但具有指定三个单元版本的自定义配置设置。
 
-![](img/00008.jpeg) 注意：HBase Shell 使用 Ruby 语法，用花括号来定义指定为名称 - 值对的对象和属性，用值'=＆gt;'分隔。
+![](img/00008.jpeg) 注意：HBase Shell 使用 Ruby 语法，用花括号来定义指定为名称 - 值对的对象和属性，用值'=&gt;'分隔。
 
 要查看表的配置，请使用 describe 命令。输出告诉您表是否已启用客户端访问，并包括所有列系列及其所有设置，如代码清单 9 所示：
 

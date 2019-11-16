@@ -212,7 +212,7 @@ gulp.task('css:less', function () {
 
 这一次，我们正在迁移到安装了 Windows 和 [Visual Studio 2015](https://www.visualstudio.com/?Wt.mc_id=DX_38656) 的计算机。有不同的口味可供选择，例如企业版的免费社区版本。
 
-启动 Visual Studio 2015（图 33）后，或者使用菜单并选择 **File** ＆gt; **新项目**，或者在打开 Visual Studio 2015 后看到的第一页上的**启动**下单击**新项目**。
+启动 Visual Studio 2015（图 33）后，或者使用菜单并选择 **File** &gt; **新项目**，或者在打开 Visual Studio 2015 后看到的第一页上的**启动**下单击**新项目**。
 
 ![](img/00037.jpeg)
 
@@ -342,7 +342,7 @@ project.webroot 来自 project.json 文件，它通过 require 语句加载。�
 
 对于 Gulp，Visual Studio 中有一个专用窗格，可以通过以下几种方式访问​​：
 
-*   通过菜单：首先在解决方案资源管理器中选择 **gulpfile.js** 文件，然后转到**工具**＆gt; **Task Runner Explorer** 。
+*   通过菜单：首先在解决方案资源管理器中选择 **gulpfile.js** 文件，然后转到**工具**&gt; **Task Runner Explorer** 。
 *   右键单击解决方案资源管理器中的 **gulpfile.js** ，然后从上下文菜单中选择 **Task Runner Explorer** 。
 
 ![](img/00042.jpeg)
@@ -357,7 +357,7 @@ project.webroot 来自 project.json 文件，它通过 require 语句加载。�
 
 在左侧，我们可以看到带有 Gulp 图标的 Gulpfile.js，以及我们在代码清单 59 中看到的六个不同的任务。在右侧，我们可以看到一些绑定。这与我们到目前为止所使用的有些不同，并且在 Visual Studio 中是典型的。
 
-我们现在看到的唯一绑定是 Clean 绑定，一旦执行，它将运行 Gulp clean 任务。为此，请使用菜单并选择 **Build** ＆gt; **清洁溶液**。
+我们现在看到的唯一绑定是 Clean 绑定，一旦执行，它将运行 Gulp clean 任务。为此，请使用菜单并选择 **Build** &gt; **清洁溶液**。
 
 ![](img/00044.jpeg)
 
@@ -371,11 +371,11 @@ project.webroot 来自 project.json 文件，它通过 require 语句加载。�
 
 再看一下代码清单 60，您将在文件顶部看到以下行：
 
-///＆lt; binding Clean ='clean'/＆gt;
+///&lt; binding Clean ='clean'/&gt;
 
 这看起来很熟悉，是的，这一行弥补了工具能够将任务绑定到 Visual Studio 的 Task Runner Explorer 中的绑定。在这种特定情况下，它将 Gulp clean 任务绑定到 Clean 绑定。您可以通过取出 gulpfile.js 文件中的行，保存它并再次打开 Task Runner Explorer 来轻松测试。绑定将消失。通过将其放回 gulpfile.js 文件并保存它，将恢复绑定。
 
-您可以通过更改 gulpfile.js 文件或右键单击 Task Runner Explorer 中的 Gulp 任务并从上下文菜单中选择 **Bindings** ＆gt;来添加新绑定。并选择以下四种可能之一：
+您可以通过更改 gulpfile.js 文件或右键单击 Task Runner Explorer 中的 Gulp 任务并从上下文菜单中选择 **Bindings** &gt;来添加新绑定。并选择以下四种可能之一：
 
 表 1：Visual Studio Task Runner Explorer 中的绑定
 
