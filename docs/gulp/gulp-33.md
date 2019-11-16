@@ -109,7 +109,7 @@ gulp.task('default',
 
 ```
 
-这将在输出文件夹 wwwroot / js 中生成名为 inheritance.js.map 的源映射文件。它还将在生成的 inheritance.js 文件的底部添加以下行，以指示两者之间的关系： //＃sourceMappingURL = inheritance.js.map 。
+这将在输出文件夹 wwwroot / js 中生成名为 inheritance.js.map 的源映射文件。它还将在生成的 inheritance.js 文件的底部添加以下行，以指示两者之间的关系： //# sourceMappingURL = inheritance.js.map 。
 
 ### EcmaScript 6
 

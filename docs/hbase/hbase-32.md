@@ -2,7 +2,7 @@
 
 ## 概述
 
-HBase 非常适合跨平台解决方案，Thrift API 是 Java API 的替代品。 Thrift 是 Apache 的通用 API 接口，支持从不同语言到 Java 服务器的客户端连接。我们将在本章中使用 Python，但您可以使用 Thrift 绑定的任何语言（包括 Go，C＃，Haskell 和 Node）。
+HBase 非常适合跨平台解决方案，Thrift API 是 Java API 的替代品。 Thrift 是 Apache 的通用 API 接口，支持从不同语言到 Java 服务器的客户端连接。我们将在本章中使用 Python，但您可以使用 Thrift 绑定的任何语言（包括 Go，C# ，Haskell 和 Node）。
 
 Thrift API 是一个外部接口，因此需要额外的 JVM 才能运行。您可以使用 HBase 守护程序脚本 hbase-daemon.sh start thrift 启动它。它可以单独托管到 HBase 集群的其余部分，也可以在 Region Servers 上运行。 Thrift 没有本机负载均衡器，但传输是 TCP，因此您可以使用外部负载均衡器（如 HAProxy）。
 
